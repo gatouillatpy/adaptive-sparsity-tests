@@ -1,0 +1,21 @@
+﻿{
+    "date":  "2026-11-22T03:06:55.6568145-05:00",
+    "cpu":  "AMD Ryzen 9 5950X 16-Core Processor            ",
+    "logical_processors":  32,
+    "os":  "Microsoft Windows NT 10.0.26200.0",
+    "cuda_path":  "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8",
+    "seeds":  [
+                  42,
+                  43,
+                  44
+              ],
+    "threads":  [
+                    1,
+                    8
+                ],
+    "queries":  24,
+    "repeats":  3,
+    "command":  "",
+    "input":  "Synthetic Gaussian weights, Gaussian or ReLU input vectors; no model checkpoints.",
+    "order":  "Dense first; keep budgets .05,.10,.15 next. Four warmup calls per path."
+}
